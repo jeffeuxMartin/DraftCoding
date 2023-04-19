@@ -1,0 +1,15 @@
+id:
+    id of sents
+nsentences = 288
+ntokens = 7902
+net_input:
+    src_tokens:
+        tensor of tokens
+        size: 288 x 50
+    src_lengths:
+        tensor of lengths of each src sentence
+    prev_output_tokens:
+        tensor of previous decoder outputs
+target:
+    tnsr of targets
+
